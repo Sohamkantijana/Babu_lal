@@ -81,6 +81,11 @@ if __name__=="__main__":
         
         elif 'open stackoverflow' in query:
             webbrowser.open("stackoverflow.com")
+        elif'open gfg' in query:
+            webbrowser.open("http s://practice.geeksforgeeks.org")
+        elif'open zoro' in query:
+            webbrowser.open("https://sanji.to/home")
+        
 
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
